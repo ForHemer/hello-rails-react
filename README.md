@@ -1,24 +1,82 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails
 
-Things you may want to cover:
+> Hello rails displays a random greeting each time the page is reloaded.
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- React
+- Ruby on Rails
+- Redux
+- PostgreSQL
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Clone this repository
 
-* How to run the test suite
+Run the following in your terminal:
 
-* Services (job queues, cache servers, search engines, etc.)
+`git clone git@github.com:ForHemer/hello-rails-react.git`
+`cd hello-rails-react`
 
-* Deployment instructions
+### Install gems and packages
 
-* ...
+run `bundle install`
+run `yarn install`
+run `rails webpacker:install`
+run `rails webpacker:install:react`
+run `rails g react:install`
+
+
+### Setup database
+
+run `rake db:reset` then `rake db:seed`
+
+if you experience an error with the database please run the followings
+`rake db:drop`
+`rake db:create`
+`rake db:migrate`
+`rake db:seed`
+
+
+### Start server
+run `rails s`
+Open `http://localhost:3000` in your browser
+
+## Prerequisites
+
+Having Git, Ruby, NodeJs, Yarn, PostgreSQL, and Yarn setup on your system.
+If they are not setup please install them
+
+
+## Authors
+
+👤 **Hemerson Foreste**
+
+- GitHub: [@ForHemer](https://github.com/ForHemer)
+- Twitter: [@HemersonForeste](https://twitter.com/HemersonForeste)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ForHemer/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
