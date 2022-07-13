@@ -43,8 +43,9 @@ if you experience an error with the database please run the followings
 
 
 ### Start server
-run `rails s`
-Open `http://localhost:3000` in your browser
+-run `rails s -p 3000` in the terminal
+-run `./bin/webpack-dev-server` in other window
+-Open `http://localhost:3000` in your browser and enjoy
 
 ## Prerequisites
 
